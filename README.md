@@ -59,3 +59,8 @@ Standard validation to ensure the environment is operational:
 ```
 ## Log Verification: 
 Check /var/log/nginx/error.log for any upstream connection failures to Port 3000.
+
+## License
+
+MIT © 2025 RP Wadhwa
+
