@@ -51,7 +51,21 @@ This project integrates a web-facing proxy with a backend service layer.
 - Database Integration (Target: Tomorrow): The instance will be updated to host a database engine (e.g., MySQL or PostgreSQL).
   - Integration will require local socket connections or standard TCP/IP on the database port.
 - Environment Variables: Integration secrets (DB user, pass, port 3000 configs) should be stored in a .env file within the app directory.
-  
+- 
+```
+# Ensure the log and data directories are owned by the mongodb user
+sudo chown -R mongodb:mongodb /var/lib/mongodb
+sudo chown -R mongodb:mongodb /var/log/mongodb
+
+# Start the service
+sudo systemctl start mongod
+
+# Verify it is running
+sudo systemctl status mongod
+```
+
+# Verify it is running
+sudo systemctl status mongod
 ## Data Migration and Conversion. Note: Active requirements will be defined during tomorrow's database deployment.
 - Schema Baseline: Application migrations must be run to initialise the database structure on Ubuntu 24.0.
 - Version Compatibility: Database versioning must be compatible with Ubuntu 24.0's package manager (apt).
