@@ -26,6 +26,9 @@ Connect via SSH:
 Bash
 ssh -i "your-key.pem" ubuntu@your-ec2-ip
 ```
+
+![Bash](https://github.com/RashWadhwa/app-deployment-120126/blob/master/images/scp%20command.png)
+
 ## Infrastructure Scripting: 
 The script (managed via nano) handles system updates and service setup.
 ```
@@ -34,8 +37,13 @@ Bash
 chmod +x deploy_app.sh
 ./deploy_app.sh
 ```
+
+![Welcome](https://github.com/RashWadhwa/app-deployment-120126/blob/master/images/welcome%20page%20nginx.png)
+
 ## Application Configuration: 
 Ensure the application is listening on 0.0.0.0:3000 to accept internal requests forwarded by Nginx or direct external traffic, as required for testing.
+
+![Confirmation of the app deployment](https://github.com/RashWadhwa/app-deployment-120126/blob/master/images/Test%20app.png)
 
 ## System Integration Requirements:
 This project integrates a web-facing proxy with a backend service layer. 
