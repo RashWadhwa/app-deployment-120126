@@ -62,44 +62,37 @@ pm2 start app.js
 ---
 
 ## Auto-Scaling
-
-![]()
-![]()
+![](scripts/day-5/images/diagramOfASG.png)
+![](scripts/day-5/images/creationOfASGGroup.png)
+![](scripts/day-5/images/launchedInstanceFromTemplates.png)
+![](scripts/day-5/images/launchOfTemplates.png)
 
 - Under Advanced Settings, reuse the same script as before.
 - Click Create Template.
 
-![]()
-![]()
+![](scripts/day-5/images/Step2OfASG.png)
+![](scripts/day-5/images/Step3OfASG.png)
+![](scripts/day-5/images/Step3.1.png)
 
 - Launching from template auto-fills key-pairs, AMIs, advanced settings, security groups, etc.
 
-
-![]()
-![]()
+![](scripts/day-5/images/Step4.png)
 
 - To add a name to the instance: 
 
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+![](scripts/day-5/images/Step5.png)
+![](scripts/day-5/images/tagsAdded.png)
 
 - HA-SC: High-Availability Scaling
   
-![]()
-
-![]()
-![]()
-![]()
+![](scripts/day-5/images/Step6.png)
 
 - To check it's running correctly:
 
-![]()
-![]()
+![](scripts/day-5/images/Step7.png)
+![](scripts/day-5/images/Step7.1.png)
 
 - Copy the 'DNS name' and paste it into a browser to get back to the main page:
-
+- 
 ![]()
+![](scripts/day-5/images/confirmationOfASGGroupCreated.png)
