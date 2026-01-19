@@ -1,14 +1,17 @@
 #!/bin/bash
-# Script to deploy NGINX server
+
 # update packages
 sudo apt update -y
 
-# install NGINX
+# upgrade packages
+sudo apt upgrade -y
+
+# get and install nginx
 sudo apt install nginx -y
 
-# start NGINX service
+# restart nginx
 sudo systemctl restart nginx
 
-# enable NGINX to start on boot
+# enable nginx - make nginx startup process
 sudo systemctl enable nginx
 
