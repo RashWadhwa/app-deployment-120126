@@ -94,5 +94,5 @@ pm2 start app.js
 
 - Copy the 'DNS name' and paste it into a browser to get back to the main page:
 - 
-![]()
+![](scripts/day-5/images/DNSlink.png)
 ![](scripts/day-5/images/confirmationOfASGGroupCreated.png)
