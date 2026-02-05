@@ -37,7 +37,7 @@ sudo bash -c "curl -fsSL https://deb.nodesource.com/setup_20.x | bash -"
 sudo apt-get install -y nodejs
 
 # cd into repo
-cd se-sparta-test-app
+cd nodejs2-sparta-test-app.2025
 
 # cd into app folder
 cd app
