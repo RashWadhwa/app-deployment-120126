@@ -10,7 +10,7 @@ sudo apt upgrade -y
 sudo apt install git -y
 
 # get the app code
-git clone https://github.com/LSF970/se-sparta-test-app.git
+git clone https://github.com/LSF970/nodejs2-sparta-test-app.2025
 
 # install nginx
 sudo apt install nginx -y
@@ -34,7 +34,7 @@ sudo apt install curl -y
 sudo bash -c "curl -fsSL https://deb.nodesource.com/setup_20.x | bash -"
 
 # install nodejs 20
-sudo apt install nodejs -y
+sudo apt-get install -y nodejs
 
 # cd into repo
 cd se-sparta-test-app
@@ -42,7 +42,7 @@ cd se-sparta-test-app
 # cd into app folder
 cd app
 
-# npm install
+# Set up app (install dependencies)
 sudo npm install
 
 # install pm2 --> process manager for node apps
