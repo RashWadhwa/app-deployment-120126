@@ -61,7 +61,7 @@ pm2 start app.js
 
 ---
 
-## Auto-Scaling
+### Auto-Scaling
 
 ![](images/diagramOfASG.png)
 
@@ -92,7 +92,7 @@ pm2 start app.js
 
 - HASC: High-Availability Scaling
   
-![](scripts/day-5/images/Step6.png)
+![](images/Step6.png)
 
 - To check it's running correctly:
 
@@ -103,5 +103,6 @@ pm2 start app.js
 - Copy the 'DNS name' and paste it into a browser to get back to the main page:  
 
 ![](images/confirmationOfASGGroupCreated.png)
+
 
 
