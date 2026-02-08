@@ -62,16 +62,22 @@ pm2 start app.js
 ---
 
 ## Auto-Scaling
+
 ![](images/diagramOfASG.png)
+
 ![](images/creationOfASGGroup.png)
+
 ![](images/launchedInstanceFromTemplates.png)
+
 ![](images/launchOfTemplates.png)
 
 - Under Advanced Settings, reuse the same script as before.
 - Click Create Template.
 
 ![](images/Step2OfASG.png)
+
 ![](images/Step3OfASG.png)
+
 ![](images/Step3.1.png)
 
 - Launching from template auto-fills key-pairs, AMIs, advanced settings, security groups, etc.
@@ -81,18 +87,21 @@ pm2 start app.js
 - To add a name to the instance: 
 
 ![](images/Step5.png)
-![]/images/tagsAdded.png)
 
-- HA-SC: High-Availability Scaling
+![](images/tagsAdded.png)
+
+- HASC: High-Availability Scaling
   
 ![](scripts/day-5/images/Step6.png)
 
 - To check it's running correctly:
 
 ![](images/Step7.png)
+
 ![](images/Step7.1.png)
 
 - Copy the 'DNS name' and paste it into a browser to get back to the main page:  
 
 ![](images/confirmationOfASGGroupCreated.png)
+
 
