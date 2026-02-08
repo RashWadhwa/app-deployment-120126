@@ -2,27 +2,25 @@
 
 ## Turn on Monitoring
 
-![]()
-
 - Add Dashboard
 - Create New Button
-- Click add to Dashboard
-- After about 60s, monitoring graph will update.
+- Click Add to Dashboard
+- After about 60 seconds, the monitoring graph will update.
   
 ![](images4/Dashboard.png) 
 
 ### Set up an alarm
 
-- Go to the cloudwatch section of the AWS website and click 'all alarms' at the side.
+- Go to the CloudWatch section of the AWS website and click 'all alarms' on the side.
 - Click the orange 'Create Alarm' button in the top-right.
-- 
+  
 ![](images4/Cloudwatch.png) 
 
 - Add alarm details  
     
 ![](images4/configuredAlarmDetails.png)
 
- - Go to EC2 page and click select metric
+ - Go to the EC2 page and click select metric
 
 ![](images4/goToEC2.png)
 
@@ -43,6 +41,7 @@
 - Notifications:
   
 ![]()
+
 
 
 
